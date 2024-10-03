@@ -3,6 +3,6 @@ plugins {
 }
 
 dependencies {
-    implementation(project(":domain:project"))
-    implementation(project(":domain:todo"))
+    implementation(project(":domain:project")) // domain:projectを呼ぶために必要
+    implementation(project(":domain:todo")) // domain:todoを呼ぶために必要
 }

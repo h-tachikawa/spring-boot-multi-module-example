@@ -1,5 +1,6 @@
 plugins {
     java
+    kotlin("jvm")
 }
 
 group = "com.example"
@@ -10,6 +11,7 @@ repositories {
 }
 
 dependencies {
+    implementation(kotlin("stdlib")) // Kotlin標準ライブラリ
     testImplementation("org.junit.jupiter:junit-jupiter")
 }
 
